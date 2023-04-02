@@ -1,0 +1,122 @@
+/* Jai shree ram */
+
+/* Overflow:scroll
+{
+  overflow-x: scroll;
+  overflow-y: scroll;
+} */
+
+#divscroll {
+  /* overflow: scroll;
+  height: 100px;
+  width: 200px; */
+  display: flex;
+  justify-content: between; 
+   /* flex-wrap: wrap; Move right part to new line when overlapping */
+  /* width: 300px; */
+}
+
+body {
+  background: url("gym2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+img {
+  width: 205px;
+  margin: 5px 190px;
+  /* padding: 25px 100px; */
+}
+#logo {
+  float: left;
+}
+#logoname {
+  color: white;
+  margin: 0px 230px;
+  font-size: x-large;
+  font-family: "Baloo Bhai", cursive;
+}
+.text {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  font-family: "Baloo Bhai", cursive;
+}
+a {
+  color: white;
+}
+/* #navi{
+    position: relative;
+} */
+#top {
+  position: fixed;
+  margin-left: 500px;
+}
+#navi ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 0px 100px;
+  /* position: fixed; */
+}
+#navi li {
+  /* text-align: center; */
+  padding: 15px 26px;
+  font-size: xx-large;
+  color: darkorange;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  font-weight: bold;
+}
+#sidelist li {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  border: solid white;
+  margin-left: 50px;
+  margin-right: 40px;
+  margin: 0px 10px;
+  border-radius: 50px;
+}
+#navi :hover {
+  color: aqua;
+  /* font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  cursor: pointer;
+}
+#box {
+  float: left;
+  margin: 208px -178px;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 70px 0px;
+}
+.form-group input {
+  text-align: center;
+  font-family: "Baloo Bhai", cursive;
+  display: block;
+  width: 508px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 17px auto;
+  font-size: 30px;
+  border-radius: 30px;
+  /* color: white; */
+  font-weight: bold;
+}
+.btn {
+  text-align: center;
+  /* color: white; */
+  text-align: center;
+  font-family: "Baloo Bhai", cursive;
+  font-weight: bold;
+  margin: 20px 300px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 2px 3px;
+  font-size: 30px;
+}
